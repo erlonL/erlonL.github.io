@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    max-width: 960px;
+    margin: auto;
+    
+    background-color: #dfdfdf;
+    font-family: "Times New Roman", Helvetica, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bebas Neue";
+}
+
+h3 {
+    text-align: center;
+}
+
+.responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+    align-content: center;
+    max-width: 50vw;
+    height: auto;
+    margin: auto;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #90a8c1;
+    border-radius: 16px;
+    position: relative;
+}
+.container:hover {
+  background-color: #a8b6d1;
+}
+
+.parent {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
