@@ -1,5 +1,3 @@
-## Olá!
+# Olá!
 
-# Meu nome é **Erlon**
-
-Estou atualmente cursando Ciência de Dados e Inteligência Artificial na UFPB!
+## Acesse para ver meus projetos recentes: [ErlonL - Portfólio](https://erlonl.github.io/)
