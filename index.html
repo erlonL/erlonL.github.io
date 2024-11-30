@@ -4,40 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ErlonL - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
-<body>
+<body class="flex justify-items-center items-center flex-col space-y-4 bg-[#FAF9F6] ">
+  <header class="heading p-4 w-full h-16 bg-gradient-to-b from-[#D2E3F3] to-[#FAF9F6]">
+    <!-- <h1>Seja Bem Vindo!</h1> <!--&#128515-->
+  </header>
+  
+  
+  <section id="aboutme" class="flex flex-col items-center space-y-1">
+    <h2 class="font-mono font-black text-black text-lg lg:text-3xl">Sobre mim</h2>
+    <div class="bg-[#67A0EF] w-52 rounded-3xl">  
+      <img src="media/profile.jpeg" alt="Erlon" class="w-full rounded-3xl">
+    </div>
+    <div class="max-w-[20rem] lg:max-w-[50rem] outline outline-slate-950 outline-1 p-2">
+      <p class="text-black text-[1rem] text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet turpis ac nisl luctus molestie. Aenean quis leo non metus sodales porttitor sit amet eu elit. Donec imperdiet lectus laoreet, consequat tortor vel, blandit justo. Fusce ac nunc eu risus eleifend ullamcorper vitae eleifend ex. Fusce vel fermentum nunc. Vivamus in ligula semper, vestibulum felis nec, laoreet elit. In scelerisque hendrerit vehicula. Ut vehicula est ac sapien scelerisque, a ornare libero blandit. Vestibulum sed facilisis metus, eu dapibus leo. Morbi ut dignissim purus. Etiam libero eros, sollicitudin nec hendrerit sed, tristique id ligula. Mauris urna nibh, pulvinar id pretium et, porttitor vitae sem.</p>
+    </div>
+  </section>
 
-  <div class="heading">
-    <h1>Seja Bem Vindo!</h1> <!--&#128515-->
-  </div>
+  <!-- <h2><u><i class = "fa fa-github"></i> Veja alguns de meus projetos: </u></h2> -->
 
-  <h2><u><i class = "fa fa-github"></i> Veja alguns de meus projetos: </u></h2>
+  <section id="projects" class="flex flex-col items-center space-y-1">
+    <h2 class="font-mono font-black text-black text-lg lg:text-3xl">Projetos</h2>
+    <div id="slider-container" class="flex items-center">
+      <div id="slider" class="slider flex flex-row scroll-smooth space-x-1 shadow-sm py-1 overflow-x-auto">
+      
+        <div class="container">
+          <h3><a href="https://github.com/erlonL/ProjetoCUCA" id = "a-cuca">Projeto CUCA</a></h3>
+          <div class="image-container">
+            <img src="media/capa-cuca-650.jpg" alt="Projeto CUCA" class = "responsive w-full">
+          </div>
+          <p class="my-4">Alocação de turmas escrito em C, feito para a disciplina de <b>Programação Estruturada</b></p>
+        </div>
+      
+        <div class = "container">
+          <h3><a href="https://github.com/erlonL/Projeto-ICD" id = "a-icd">Projeto ICD</a></h3>
+          <div class="image-container">
+            <img src="media/capa-heartdisease-650.png" alt="Projeto ICD" class = "responsive w-full">
+          </div>
+          <p class="my-4">Projeto ICD ou Heart Disease Key Indicators é um projeto de análise de dados para a disciplina de <b>Introdução à Ciência de Dados</b></p>
+        </div>
+      
+        <div class = "container">
+          <h3><a href="https://github.com/erlonL/Projeto-ICD" id = "a-icd">Projeto ICD</a></h3>
+          <div class="image-container">
+            <img src="media/capa-heartdisease-650.png" alt="Projeto ICD" class = "responsive w-full">
+          </div>
+          <p class="my-4">Projeto ICD ou Heart Disease Key Indicators é um projeto de análise de dados para a disciplina de <b>Introdução à Ciência de Dados</b></p>
+        </div>
+      
+        <div class = "container">
+          <h3><a href="https://github.com/erlonL/Projeto-ICD" id = "a-icd">Projeto ICD</a></h3>
+          <div class="image-container">
+            <img src="media/capa-heartdisease-650.png" alt="Projeto ICD" class = "responsive w-full">
+          </div>
+          <p class="my-4">Projeto ICD ou Heart Disease Key Indicators é um projeto de análise de dados para a disciplina de <b>Introdução à Ciência de Dados</b></p>
+        </div>
 
-  <div class="container">
-      <h3><a href="https://github.com/erlonL/ProjetoCUCA" id = "a-cuca">Projeto CUCA</a></h3>
+        <div class = "container">
+          <h3><a href="https://github.com/erlonL/Projeto-ICD" id = "a-icd">Projeto ICD</a></h3>
+          <div class="image-container">
+            <img src="media/capa-heartdisease-650.png" alt="Projeto ICD" class = "responsive w-full">
+          </div>
+          <p class="my-4">Projeto ICD ou Heart Disease Key Indicators é um projeto de análise de dados para a disciplina de <b>Introdução à Ciência de Dados</b></p>
+        </div>
 
-      <div class="image-container">
-        <img src="media/capa-cuca-650.jpg" alt="Projeto CUCA" class = "responsive">
+        <div class="container">
+          <h3><a href="https://github.com/erlonL/ProjetoCUCA" id = "a-cuca">Projeto CUCA</a></h3>
+          <div class="image-container">
+            <img src="media/capa-cuca-650.jpg" alt="Projeto CUCA" class = "responsive w-full">
+          </div>
+          <p class="my-4">Alocação de turmas escrito em C, feito para a disciplina de <b>Programação Estruturada</b></p>
+        </div>
 
+        <div class="container">
+          <h3><a href="https://github.com/erlonL/ProjetoCUCA" id = "a-cuca">Projeto CUCA</a></h3>
+          <div class="image-container">
+            <img src="media/capa-cuca-650.jpg" alt="Projeto CUCA" class = "responsive w-full">
+          </div>
+          <p class="my-4">Alocação de turmas escrito em C, feito para a disciplina de <b>Programação Estruturada</b></p>
+        </div>
+        
       </div>
-      <p>Alocação de turmas escrito em C, feito para a disciplina de <b>Programação Estruturada</b></p>
-  </div>
+    </div>
+    <div class="flex flex-row space-x-1 ml-auto mr-[5%] pb-4">
+      <button id="scroll-left" class="whit bg-[#4c6ab2] h-12 w-12 flex items-center justify-center rounded-full scroll-button">
+        <span class="gravity-ui--arrow-shape-left w-full h-full"></span>
+      </button>
+      <button id="scroll-right" class="bg-[#4c6ab2] scroll-button h-12 w-12 flex items-center justify-center rounded-full scroll-button">
+        <span class="gravity-ui--arrow-shape-right w-full h-full"></span>
+      </button>
+    </div>
+  </section>
 
-  <hr>
+  <script>
+    const slider = document.querySelector('.slider');
+    const prevBtn = document.getElementById('scroll-left');
+    const nextBtn = document.getElementById('scroll-right');
 
-  <div class = "container">
-      <h3><a href="https://github.com/erlonL/Projeto-ICD" id = "a-icd">Projeto ICD</a></h3>
-      <div class="image-container">
-        <img src="media/capa-heartdisease-650.png" alt="Projeto ICD" class = "responsive">
-      </div>
-      <p>Projeto ICD ou Heart Disease Key Indicators é um projeto de análise de dados para a disciplina de <b>Introdução à Ciência de Dados</b></p>
-  </div>
-
-  <hr>
+    prevBtn.onclick = () => {
+      slider.scrollLeft -= 300;
+    }
+    nextBtn.onclick = () => {
+      slider.scrollLeft += 300;
+    }
+  </script>
 
 </body>
 </html>
